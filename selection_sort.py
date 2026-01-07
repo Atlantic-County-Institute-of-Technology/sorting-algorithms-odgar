@@ -1,4 +1,7 @@
 def selection_sort(nums):
+    print("Unsorted: " , nums)
+    if nums == "Error":
+        exit()
     loop1 = 0
     swaps = 0
     loop2 = 0
